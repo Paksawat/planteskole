@@ -1,0 +1,40 @@
+.slide {
+    display: none; 
+    width: 100%;
+    margin: auto;
+    transition: all 1s ease-in-out;
+}
+.slide.active {
+   display: contents; 
+}
+
+.display-left, .display-right{
+    border: none;
+    background: none;
+    font-size: 2.5rem;
+    cursor: pointer;
+    color: rgb(17, 4, 131);
+}
+@keyframes fadeout {
+    0%{
+        opacity: 100%
+    }
+    100%{
+        opacity: 0%
+    }
+}
+
+
+.modalIndhold{
+    display: flex;
+    align-items: center;
+    margin: auto;
+    width: 40vw;
+
+} 
+.modalIndhold img{
+    max-height: 200px;
+}  
+.modalIndhold button{
+    margin: auto;
+}
