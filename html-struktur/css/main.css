@@ -1,0 +1,70 @@
+*{
+    margin:0;
+    padding:0;
+}
+/* ----- header ----- */
+header{
+    position: fixed;
+    display: grid;
+    grid-template-columns: repeat(12,1fr);
+    height: 10vh;
+    width: 100vw;
+    background-color: white;
+    z-index: 1;
+}
+.burger{
+grid-column: 1;
+margin: auto;
+
+max-width: 75%;
+}
+.logo{
+grid-column: 4/10;
+
+max-width: 100%;
+margin: auto;
+
+}
+.søgefelt{
+grid-column: 11;
+
+max-width: 75%;
+margin: auto;
+
+
+}
+.indkøbskurv{
+grid-column: 12;
+
+max-width: 75%;
+margin: auto;
+
+
+}
+/* ----- body ----- */
+body{
+    
+    display: grid;
+    grid-template-columns: repeat(12,1fr);
+}
+/* ----- indhold ----- */ 
+.indhold{
+    z-index: 2;
+    padding-top:10vh;
+    display:grid;
+    grid-template-columns: repeat(12,1fr);
+}
+.main-video{
+    padding-top:10vh;
+    margin: auto;
+   
+    grid-column: 1/13;
+    height: 50vh; 
+    width: 100%;
+}
+.banner{
+ grid-column: span 12;
+ max-width: 100%;
+
+
+}
